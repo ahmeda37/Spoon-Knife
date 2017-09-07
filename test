@@ -1,0 +1,42 @@
+			<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions\/Subtitles":"Captions\/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up\/Down Arrow keys to increase or decrease volume.":"Use Up\/Down Arrow keys to increase or decrease volume.","Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds."}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-content/themes/optimizewp/assets/js/third-party.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.1.1'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAIM8MEJf7xm4RwAN-Gz4Vbdhitf0JlRzE&#038;ver=4.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mkdfGlobalVars = {"vars":{"mkdfAddForAdminBar":0,"mkdfElementAppearAmount":-150,"mkdfFinishedMessage":"No more posts","mkdfMessage":"Loading new posts...","mkdfTopBarHeight":0,"mkdfStickyHeaderHeight":60,"mkdfStickyHeaderTransparencyHeight":60,"mkdfLogoAreaHeight":0,"mkdfMenuAreaHeight":92,"mkdfMobileHeaderHeight":100}};
+var mkdfPerPageVars = {"vars":{"mkdfStickyScrollAmount":1200,"mkdfHeaderTransparencyHeight":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-content/themes/optimizewp/assets/js/modules.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-content/themes/optimizewp/assets/js/blog.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/comment-reply.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mkdfLike = {"ajaxurl":"https:\/\/www.searchbeast.ca\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-content/themes/optimizewp/assets/js/like.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.searchbeast.ca/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script>
